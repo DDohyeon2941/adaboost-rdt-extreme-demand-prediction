@@ -24,6 +24,16 @@ The algorithm is compared against standard boosting methods, including:
 - **Gradient Boosting Machine (GBM)**
 - **Noise-robust boosting variants** such as Huber Loss Boosting (MBoost) and L1 Loss Boosting (LADBoost).
 
+## **Experimental Pipeline**
+
+1. Preprocess demand datasets
+2. Train AdaBoost.RDT and comparison methods
+3. Generate predictions
+4. Analyze prediction performance
+5. Evaluate robustness using bootstrap analysis
+6. Generate tables for paper writing
+
+
 ## **Results**
 Experimental results demonstrate that AdaBoost.RDT:
 - **Reduces underestimation errors** for extreme demand cases.
